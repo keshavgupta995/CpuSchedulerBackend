@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "CpuSchedulingBackend.Controllers.SchedulerController",
+    "Method": "Schedule",
+    "RelativePath": "api/Scheduler/schedule",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "CpuSchedulingBackend.DTOs.ScheduleRequestDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CpuSchedulingBackend.DTOs.ScheduleResultDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]

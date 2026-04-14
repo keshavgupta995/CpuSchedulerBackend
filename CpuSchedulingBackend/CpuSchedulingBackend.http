@@ -1,0 +1,6 @@
+@CpuSchedulingBackend_HostAddress = http://localhost:5184
+
+GET {{CpuSchedulingBackend_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
